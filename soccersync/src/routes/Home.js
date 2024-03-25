@@ -7,27 +7,28 @@ function Home() {
     <>
       <Container fluid className="full-height">
         <Row className="full-height">
-          {/* First Column */}
-          <Col md={4} className="first-column">
-            <div className="content">Column 1</div>
+          <Col md={9} className="first-column">
+            <div className="content3">
+            <Row md={12} className='content1'>
+            <Col  className="column-left">
+                  {/* Content for the first column */}
+                  <h1>hello</h1>
+                </Col>
+                <Col md={3} className="column-right">
+                  {/* Content for the second column */}
+                </Col>
+              </Row>
+              <Row md={11} className='content2'>
+               
+              </Row>
+
+            </div>
           </Col>
-          {/* Second Column */}
-          <Col md={4} className="second-column">
-            <div className="content">Column 2</div>
-          </Col>
-          {/* Third Column */}
-          <Col md={4} className="third-column">
-            <div className="content">Column 3</div>
-          </Col>
-        </Row>
-        <Row className="full-height">
-          {/* Long Column Spanning 2 Rows */}
-          <Col md={8} className="long-column">
-            <div className="content">Long Column Spanning 2 Rows</div>
-          </Col>
-          {/* Placeholder Column */}
-          <Col md={4} className="placeholder-column">
-            <div className="content">Placeholder</div>
+          
+          <Col md={2} className="second-column">
+            <div className="content">
+              
+            </div>
           </Col>
         </Row>
       </Container>

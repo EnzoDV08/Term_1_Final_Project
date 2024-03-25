@@ -1,14 +1,23 @@
-.col-custom { 
-    margin-bottom: 20px;
-   }
-  .chart-container { 
-    background: #f8f9fa; border:
-     1px solid #dee2e6;
-      border-radius: 8px;
-      padding: 10px;
-       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-      }
-  .lower {
-     margin-top: 20px; 
-    }
+.col-custom {
+  margin-bottom: 1px;
+}
+
+.chart-container {
+  margin-top: 20px;
+  background: #fff; /* Change background color */
+  border: 1px solid #ddd; /* Adjust border color */
+  border-radius: 10px; /* Increase border radius for a softer look */
+  padding: 20px; /* Increase padding for better spacing */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust box shadow for depth */
+  transition: all 0.3s ease; /* Add smooth transition */
+}
+
+.chart-container:hover {
+  transform: translateY(-3px); /* Add hover effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Adjust box shadow on hover */
+}
+
+.lower {
+  margin-top: 1px;
+}
   

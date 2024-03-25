@@ -1,16 +1,43 @@
 .full-height {
-    height: 100vh;
+    margin-top: 20px;
+    height: 88vh;
   }
   
-  .content {
-    background-color: #f0f0f0;
+  .content3 {
     padding: 20px;
-    border: 1px solid #ccc;
     height: 100%; /* Make content divs fill their parent's height */
   }
+
+  .content {
+    background-color: #343a40d0;
+    padding: 20px;
+    height: 100%;
+    border-radius: 20px; /* Make content divs fill their parent's height */
+  }
+
+  .content1 {
+   
+    padding: 20px;
+    height: 25%;
+    margin-bottom: 20px;
+    border-radius: 20px; /* Make content divs fill their parent's height */
+  }
+
+  .content2 {
+    background-color: #343a40d0;
+    padding: 20px;
+    height:74%; 
+    border-radius: 20px;/* Make content divs fill their parent's height */
+  }
   
-  .first-column, .second-column, .third-column, .long-column, .placeholder-column {
-    height: 100%; /* Ensure all columns fill the height of their parent row */
+  .first-column{
+    height: 100%;
+    margin-left: 4%; /* Ensure all columns fill the height of their parent row */
+  }
+
+  .second-column {
+    margin-top: 20px;
+    height: 97%; /* Ensure all columns fill the height of their parent row */
   }
   
   .long-column {
@@ -25,6 +52,25 @@
     .placeholder-column {
       display: block; /* Show the placeholder column on smaller screens */
     }
+  }
+
+
+  .column-left {
+    margin-left: -20px;
+    width: 500px;
+    margin-top: -20px;
+    height: 200px;
+    background-color: #343a40d0; /* Background color for the left column */ /* Padding for the left column content *//* Border for the left column */
+    border-radius: 10px; /* Border radius for the left column */
+  }
+  
+  .column-right {
+    margin-top: -20px;
+    height: 200px;
+    background-color: #343a40d0; /* Background color for the right column */ /* Padding for the right column content */
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: -20px; /* Border radius for the right column */
   }
 
 
