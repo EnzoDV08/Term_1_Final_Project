@@ -1,0 +1,43 @@
+.full-height {
+    height: 100vh;
+  }
+  
+  .content {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: 100%; /* Make content divs fill their parent's height */
+  }
+  
+  .first-column, .second-column, .third-column, .long-column, .placeholder-column {
+    height: 100%; /* Ensure all columns fill the height of their parent row */
+  }
+  
+  .long-column {
+    grid-row: span 2;
+  }
+  
+  .placeholder-column {
+    display: none; /* Hide the placeholder column */
+  }
+  
+  @media (max-width: 768px) {
+    .placeholder-column {
+      display: block; /* Show the placeholder column on smaller screens */
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
