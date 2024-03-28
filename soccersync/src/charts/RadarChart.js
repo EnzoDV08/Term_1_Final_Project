@@ -10,17 +10,17 @@ const RadarChart = () => {
     datasets: [
       {
         label: 'Everton (2023-2024 Season)',
-        data: [65, 40, 50, 7000, 800, 30, 40], // Everton Soccer Team's stats for the 2023-2024 season
+        data: [65, 40, 50, 7000, 800, 30, 40], 
         backgroundColor: 'rgba(255, 99, 132, 0.2)',
         borderColor: 'rgba(255, 99, 132, 1)',
         borderWidth: 3,
-        pointBackgroundColor: '#fff', // Set the fill color for points to white
-        pointBorderColor: 'rgba(255, 99, 132, 1)', // Set the border color for points to the same as the radar lines
-        pointBorderWidth: 2, // Set the width of the point border
-        pointHitRadius: 10, // Set the pixel size of the non-displayed point that reacts to mouse events
-        pointRadius: 4, // Set the radius of the point shape
-        pointRotation: 45, // Set the rotation of the point in degrees
-        pointStyle: 'triangle' // Set the style of the point
+        pointBackgroundColor: '#fff', 
+        pointBorderColor: 'rgba(255, 99, 132, 1)', 
+        pointBorderWidth: 2,
+        pointHitRadius: 10, 
+        pointRadius: 4,
+        pointRotation: 45, 
+        pointStyle: 'triangle' 
       }
     ],
   };
@@ -28,12 +28,12 @@ const RadarChart = () => {
   const options = {
     elements: {
       line: {
-        borderColor: '#fff', // Set the radar lines to be white
+        borderColor: '#fff', 
       }
     },
     scale: {
       grid: {
-        color: '#fff', // Set the color of the grid lines to white
+        color: '#fff', 
       }
     }
   };

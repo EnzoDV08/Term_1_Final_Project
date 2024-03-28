@@ -15,7 +15,7 @@ const PolarChart = () => {
         const response = await axios.get('https://api.soccersapi.com/v2.2/leagues/?user=231244&token=5141dd56f609919d59e75f340258d327&t=list');
         const apiData = response.data.data;
 
-        const labels = ['option 1', 'option 2', 'option 3']; // Labels from the provided BarChart component
+        const labels = ['option 1', 'option 2', 'option 3']; 
         const datasets = [
           {
             label: 'Dataset 1',

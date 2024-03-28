@@ -18,7 +18,7 @@ const PieChart = () => {
       .get('https://api.soccersapi.com/v2.2/leagues/?user=231244&token=5141dd56f609919d59e75f340258d327&t=list')
       .then(res => {
         const apiData = res.data.data;
-        console.log('API Data:', apiData); // Log API data to console
+        console.log('API Data:', apiData); 
         const labels = apiData.map(item => item.team_name);
         const datasets = [
           {
