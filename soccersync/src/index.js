@@ -8,6 +8,7 @@ import {
 import Timeline from "./routes/Timeline";
 import Home from "./routes/Home";
 import Comparison from "./routes/Comparison";
+
 import Navbar from "./components/Navbar";
 import "./App.css";
 
@@ -33,7 +34,8 @@ const router = createBrowserRouter([
         {
             path: "timeline",
             element: <Timeline />,
-          },
+        },
+
       ],
     },
   ]);

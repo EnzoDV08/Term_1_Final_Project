@@ -1,7 +1,6 @@
 import React from "react";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import * as IoIcons from "react-icons/io";
 
 export const SidebarData = [
   {
@@ -13,13 +12,14 @@ export const SidebarData = [
   {
     title: "Comparison",
     path: "/Comparison",
-    icon: <IoIcons.IoIosPaper />,
+    icon: <FaIcons.FaBalanceScale />,
     cName: "nav-text",
   },
+  
   {
     title: "Timeline",
     path: "/Timeline",
-    icon: <FaIcons.FaCartPlus />,
+    icon: <FaIcons.FaClock />,
     cName: "nav-text",
   },
 ];

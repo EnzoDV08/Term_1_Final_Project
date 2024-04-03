@@ -23,7 +23,7 @@ export const options = {
     },
 };
 
-const labels = ['option 1', 'option 2', 'option 3'];
+const labels = ['Wins', 'Losses'];
 
 const BarChart = () => {
     const [teamSeasons, setTeamSeasons] = useState([]);

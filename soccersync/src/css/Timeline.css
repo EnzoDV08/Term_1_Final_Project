@@ -1,15 +1,94 @@
-.col-custom {
-    margin-bottom: 20px;
-  }
-  
-  .chart-container {
-    background-color: #f8f9fa; 
-    border: 1px solid #dee2e6; 
-    border-radius: 8px; 
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  }
-  
-  .lower {
-    margin-top: 20px;
-  }
+.timeline-main{
+  background-image: url(../assets/spaceship.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 91.5vh;
+  float: left;
+}
+
+.star {
+  height: 91.5vh;
+  width: 100%;
+  float: left;
+  background-image: url(../assets/stars.png);
+}
+.timline-chart {
+  float: left;
+  width: 65%;
+  height: 700px;
+  margin-left: 5%;
+  background-color: #fff;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust box shadow for depth */
+  transition: all 0.3s ease; /* Add smooth transition */
+}
+
+.timeline-chart canvas {
+  width: 100% !important; /* Make sure canvas fills its container */
+  height: 100% !important; /* Make sure canvas fills its container */
+  border-radius: 18px; /* Adjust border-radius to match parent */
+}
+
+.timeline-chart .chartjs-tooltip {
+  background-color: rgba(255, 255, 255, 0.8); /* Tooltip background color */
+  border: 1px solid #ccc; /* Tooltip border */
+  color: #333; /* Tooltip text color */
+  padding: 8px; /* Padding inside the tooltip */
+  border-radius: 5px; /* Tooltip border radius */
+}
+
+.texInfo {
+  width: 20%;
+  height: 100%;
+  padding: 2%;
+  margin-left: 5%;
+  background-color: #111111da;
+  border-radius: 20px;
+  float: left;
+  color: white;
+  transition: width 0.3s ease; /* Add transition effect */
+}
+
+
+
+.timeholder{
+  width: 100%;
+  height: 25%;
+  float: left;
+  margin-top: 5%;
+}
+
+.dropDown {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  color: #555;
+  outline: none;
+  width: 200px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.dropDown:hover {
+  border-color: #aaa;
+}
+
+.dropDown:focus {
+  border-color: red;
+}
+
+.dropDown option {
+  background-color: #f9f9f9;
+  color: #555;
+}
+
+.dropDown option:hover {
+  background-color: #ccc;
+  color: #333;
+}
