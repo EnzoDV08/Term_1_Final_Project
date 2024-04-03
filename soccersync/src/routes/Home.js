@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-
 import axios from "axios";
 import Chart from 'chart.js/auto';
 import '../css/Home.css';
