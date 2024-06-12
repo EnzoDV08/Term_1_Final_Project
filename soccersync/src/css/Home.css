@@ -1,4 +1,3 @@
-
 .star {
   width: 100%;
   height: 1200px;
@@ -9,7 +8,6 @@
   width: 100%;
   padding: 20px;
 }
-
 
 .ship .card {
   background-color: rgba(0, 0, 0, 0.815);
@@ -63,7 +61,7 @@
 .shipinfo {
   margin-top: 20px;
   margin-bottom: 20px;
- background-color: rgba(0, 0, 0, 0.815);
+  background-color: rgba(0, 0, 0, 0.815);
   height: 450px;
   border-radius: 10px;
 }
@@ -79,9 +77,6 @@
   margin-bottom: 10px;
 }
 
-
-
-
 img {
   float: left;
 }
@@ -89,6 +84,7 @@ img {
 .col-md-6 {
   margin-bottom: 20px;
 }
+
 
 
 

@@ -7,7 +7,6 @@
   font-family: "Lato", sans-serif;
 }
 
-
 .navbar {
   background-color: #111111;
   height: 80px;
@@ -17,7 +16,7 @@
 }
 
 .menu-bars {
- margin-bottom: 2rem;
+  margin-bottom: 2rem;
   margin-left: 2rem;
   font-size: 2rem;
   background: none;
@@ -25,7 +24,7 @@
 }
 
 .nav-menu {
-  background-color:#111111;
+  background-color: #111111;
   width: 250px;
   height: 100vh;
   display: flex;
@@ -63,7 +62,7 @@
 }
 
 .nav-text a:hover {
-  background-color:  #fd0000;
+  background-color: #fd0000;
   color: #111111;
 }
 
@@ -85,18 +84,15 @@ span {
 }
 
 .nav-text a:hover {
-    background-color: #ff0000; 
-    color: #111111;
-  }
-  
-  .nav-text a.active {
-    background-color: #ff0000; 
-    color: #111111;
-  }
+  background-color: #ff0000;
+  color: #111111;
+}
 
-  .logo{
-    
-   margin-left: 24%;
-  }
+.nav-text a.active {
+  background-color: #ff0000;
+  color: #111111;
+}
 
-  
+.logo {
+  margin-left: 24%;
+}

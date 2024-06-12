@@ -11,14 +11,13 @@ export const SidebarData = [
   },
   {
     title: "Comparison",
-    path: "/Comparison",
+    path: "/comparison",
     icon: <FaIcons.FaBalanceScale />,
     cName: "nav-text",
   },
-  
   {
     title: "Timeline",
-    path: "/Timeline",
+    path: "/timeline",
     icon: <FaIcons.FaClock />,
     cName: "nav-text",
   },
