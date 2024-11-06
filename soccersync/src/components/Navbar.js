@@ -3,7 +3,7 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import { Link, useLocation } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
-import "../App.css";
+import '../css/Navbar.css';  // Ensure the exact case and path match
 import { IconContext } from "react-icons";
 import logo from "../assets/starwars_logo.png";
 

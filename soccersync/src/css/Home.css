@@ -1,99 +1,39 @@
 .star {
+  background-image: url('../assets/stars.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
   width: 100%;
-  height: 1200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-2 {
-  height: 10px;
-  width: 100%;
-  padding: 20px;
-}
-
-.ship .card {
-  background-color: rgba(0, 0, 0, 0.815);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 50px;
   border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border: none;
-  transition: all 0.3s ease;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  animation: fadeIn 2s ease-in-out;
 }
 
-.titleCon {
-  text-align: center;
-  padding: 20px;
+canvas {
+  width: 100% !important;
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
-.title-text-2 {
-  font-size: 80px;
-  font-weight: bold;
-  color: rgb(211, 176, 23);
+/* Animating background stars */
+@keyframes starsMove {
+  0% { background-position: 0 0; }
+  100% { background-position: 1000px 1000px; }
 }
 
-.info-text-2 {
-  font-size: 30px;
-  color: rgb(255, 255, 255);
+.star {
+  animation: starsMove 120s linear infinite;
 }
-
-.description-text-2 {
-  font-size: 25px;
-  color: rgb(255, 255, 255);
-  margin-top: 20px;
-}
-
-.titleCon2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.canvas-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-@media (max-width: 768px) {
-  .ship .card {
-    margin-bottom: 20px;
-  }
-}
-
-.shipinfo {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.815);
-  height: 450px;
-  border-radius: 10px;
-}
-
-.mamma {
-  background-color: rgba(0, 0, 0, 0.637);
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-}
-
-.col-4 {
-  margin-bottom: 10px;
-}
-
-img {
-  float: left;
-}
-
-.col-md-6 {
-  margin-bottom: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
- 
