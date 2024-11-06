@@ -61,24 +61,4 @@ Species: Data on various species, including average height, lifespan, and langua
 
 Demo Video: [Watch the demo video](https://drive.google.com/file/d/1028J2qf5gDUXDsJh9ecCu5Z1sKkTk4TS/view?usp=sharing)
 
-🔄 Future Enhancements
-Additional Data Sets: Include visualizations for starships and vehicles.
-Enhanced Interactivity: Add hover effects and clickable elements for an even more interactive experience.
-Dark Mode: Implement a theme toggle for light and dark modes.
-📝 License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
-📞 Contact
-Feel free to reach out for questions or feedback:
-
-Email: your-email@example.com
-GitHub: Your GitHub Profile
-Thank you for exploring the Star Wars Data Visualization project! May the force be with you as you dive into the data of a galaxy far, far away. 🌌
-
----
-### Instructions for Finalizing:
-1. **Replace `<repository-url>`** with the actual URL of your GitHub repository.
-2. **Add screenshots or GIFs** under the **Screenshots and Demo** section to show the app's visuals.
-3. **Update contact details** with your actual email and GitHub profile link.
-
-This `README.md` file provides a comprehensive, structured, and visually appealing presentation of your project. Let me kno
